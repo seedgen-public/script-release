@@ -288,6 +288,11 @@ body {
     color: #6B7280;
 }
 
+.category-header .icon.guide {
+    background: #FEF2F2;
+    color: #DC2626;
+}
+
 .category-header span:not(.icon):not(.count) {
     font-weight: 600;
     font-size: 0.85rem;
@@ -397,6 +402,12 @@ body {
     background: #DBEAFE;
     color: #1E40AF;
     border: 1px solid #93C5FD;
+}
+
+.os-tag.pdf {
+    background: #FEF2F2;
+    color: #991B1B;
+    border: 1px solid #FCA5A5;
 }
 
 .file-icon {

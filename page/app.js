@@ -20,6 +20,10 @@ const CATEGORY_ICONS = {
     'OS': {
         cssClass: 'os',
         icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>'
+    },
+    'Guide': {
+        cssClass: 'guide',
+        icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>'
     }
 };
 
@@ -50,7 +54,7 @@ const BRAND_ICONS = {
 };
 
 // 카테고리 표시 순서 (OS -> DBMS -> WEB/WAS -> PC)
-const CATEGORY_ORDER = ['OS', 'DBMS', 'WEB/WAS', 'PC'];
+const CATEGORY_ORDER = ['OS', 'DBMS', 'WEB/WAS', 'PC', 'Guide'];
 
 // DOM
 const els = {
