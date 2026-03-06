@@ -1,0 +1,11 @@
+# page/ 내 민감 파일
+page/.env
+page/.claude/
+page/.donotupload/
+page/release.ps1
+page/dev/
+
+# 일반
+*.log
+.DS_Store
+Thumbs.db

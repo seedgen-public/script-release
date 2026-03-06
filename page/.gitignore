@@ -1,0 +1,17 @@
+# 로컬 도구 (페이지에 불필요)
+release.ps1
+.donotupload/
+
+# 환경변수 (토큰 포함)
+.env
+
+# Claude 설정
+.claude/
+
+# 개발/테스트
+dev/
+
+# 기타
+*.log
+.DS_Store
+Thumbs.db
